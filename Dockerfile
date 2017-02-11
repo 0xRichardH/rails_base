@@ -1,4 +1,3 @@
-NAME:     rails_base
 FROM ubuntu:14.04
 
 ENV RUBY_VERSION "2.3.2"
