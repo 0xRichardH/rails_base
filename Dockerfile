@@ -1,10 +1,10 @@
 FROM ubuntu:14.04
 
-ENV RUBY_VERSION "2.3.2"
+ENV RUBY_VERSION "2.4.0"
 
 MAINTAINER Richard Hao "https://github.com/haoxilu"
 
-RUN echo "1.0.1" > /VERSION
+RUN echo "2.4.0" > /VERSION
 
 # == Ubuntu Mirror on 163 for China network
 RUN \
